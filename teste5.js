@@ -9,6 +9,5 @@ const readUser = (req, res) => {
         }
     })
     res.send(`Usuário ${name} foi lido ${count} vezes.`);
-
 };
 module.exports = readUser;
